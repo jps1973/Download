@@ -14,8 +14,8 @@
 
 #define HTML_FILE_END_OF_TAG_NAME_CHARACTERS									" >"
 
-#define HTML_FILE_ANCHOR_TAG_NAME												"img"
-#define HTML_FILE_ANCHOR_TAG_DESTINATION_ATTRIBUTE_NAME							"src"
+#define HTML_FILE_ANCHOR_TAG_NAME												"a"
+#define HTML_FILE_ANCHOR_TAG_DESTINATION_ATTRIBUTE_NAME							"href"
 #define HTML_FILE_JPEG_FILE_NAME_CONTAINS										".jpg"
 
 #define HTML_FILE_IMAGE_TAG_NAME												"img"

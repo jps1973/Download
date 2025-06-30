@@ -249,6 +249,13 @@ LRESULT CALLBACK MainWindowProcedure( HWND hWndMain, UINT uMsg, WPARAM wParam, L
 						if( StatusBarWindowCreate( hWndMain, hInstance ) )
 						{
 							// Successfully created status bar window
+							DWORD dwInitialUrlLength;
+
+							// Store initial url length
+							dwInitialUrlLength = lstrlen( lpszInitialUrl );
+
+							// Update items that depend on edit window
+							EditWindowChangeFunction( dwInitialUrlLength );
 
 							// Set status bar window font
 							StatusBarWindowSetFont( hFont );

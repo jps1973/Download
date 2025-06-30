@@ -36,7 +36,7 @@
 #define SYSTEM_MENU_ABOUT_ITEM_POSITION											6
 #define SYSTEM_MENU_ABOUT_ITEM_TEXT												"About"
 
-#define DEFAULT_URL																"https://melvinnicholsonphotography.co.uk/photo-galleries/new-zealand"
+#define DEFAULT_URL																EMPTY_STRING
 
 #define DEFAULT_REQUIRED_TAG_NAME												HTML_FILE_ANCHOR_TAG_NAME
 #define DEFAULT_REQUIRED_ATTRIBUTE_NAME											HTML_FILE_ANCHOR_TAG_DESTINATION_ATTRIBUTE_NAME
